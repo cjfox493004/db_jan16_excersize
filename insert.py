@@ -3,7 +3,7 @@ import sqlite3
 conn = sqlite3.connect('playoffs.db')
 cursor = conn.cursor()
 query = """
-INSERT INTO points (City, Name)
+INSERT INTO teams (City, Name)
 VALUES
 ("Seattle","Seahawks"),
 ("New England","Patriots"),

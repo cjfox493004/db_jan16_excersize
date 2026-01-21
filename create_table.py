@@ -5,7 +5,7 @@ conn = sqlite3.connect('playoffs.db')
 cursor = conn.cursor()
 
 query = """
-CREATE TABLE IF NOT EXISTS points(
+CREATE TABLE IF NOT EXISTS teams(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     City TEXT,
     Name TEXT 
