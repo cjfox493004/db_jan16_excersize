@@ -30,7 +30,9 @@ conn.close()
    #length_cities.append(len(record[1]))
 #print(length_cities)
 
-length_team = []
+
+length_cityName = []
 for record in records:
-   length_team.append(len(record([1, 2])))
-print(length_team)
+    length_cityName.append(len(record[1]))
+    length_cityName.append(len(record[2]))
+print(length_cityName)
